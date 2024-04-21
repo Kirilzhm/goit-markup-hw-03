@@ -1,12 +1,29 @@
 /* ======== COMMON STYLES ======== */
+h1, h2, h3, h4, h5, h6{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 body{
     font-family: "Roboto", sans-serif;
     color: #434455;
     background: #ffffff;
 }
-li,
+.container {
+    max-width:1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 141px;
+    margin-right: 141px;
+}
+ol,
 ul {
     list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img{
+    display: block;
 }
 a{
     text-decoration: none;
@@ -16,6 +33,10 @@ button{
     cursor: pointer;
 }
  /* ======== HEADER STYLES ======== */
+ .page-header-container{
+    display: flex;
+    justify-content: space-between;
+ }
 .logo{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -24,9 +45,20 @@ button{
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-right: 74px;
 }
 .text-color-black{
     color: #2e2f42
+}
+.page-navigations{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+}
+.menu-item:not(:last-child){
+    margin-right: 40px;
 }
 .menu-link{
     font-weight: 500;
@@ -34,6 +66,9 @@ button{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        display: block;
+        padding-top: 24px;
+        padding-bottom: 24px;
 }
 .contacts{
     font-weight: 400;
@@ -41,7 +76,17 @@ button{
         line-height: 1.5;
         letter-spacing: 0.02em;
         font-style: normal;
-
+    display: flex;
+}
+.contacts-menu{
+    display: flex;
+}
+.contacts-item:not(:last-child){
+    margin-right: 40px;
+}
+.contacts-item{
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .contacts-link{
         color: #434455;
@@ -63,8 +108,18 @@ letter-spacing: 0.02em;
 color: #404bbf;
 }
 /* ======== HERO STYLES ======== */
-.i-dont-know-how-it-name{
+
+.hero{
     background: #2e2f42;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-container{
+    padding-top: 188px;
+    padding-bottom: 292px;
+    padding-left: 331px;
+    padding-right: 331px;
 }
 .hero-text{
     font-weight: 700;
@@ -73,6 +128,8 @@ color: #404bbf;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        max-width: 496px;
+        margin-bottom: 48px;
 }
 .button-to-buy {
     background: #4d5ae5;
@@ -81,6 +138,10 @@ color: #404bbf;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    min-width: 169px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    margin-left: 160px;
 }
 .button-to-buy:hover,
 .button-to-buy:focus{
