@@ -7,6 +7,7 @@ body{
     font-family: "Roboto", sans-serif;
     color: #434455;
     background: #ffffff;
+    max-width: 1440px;
 }
 .container {
     max-width:1158px;
@@ -32,7 +33,15 @@ a{
 button{
     cursor: pointer;
 }
+.section-paddings{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
  /* ======== HEADER STYLES ======== */
+ .page-header{
+    padding-top: 12px;
+    padding-bottom: 12px;
+ }
  .page-header-container{
     display: flex;
     justify-content: space-between;
@@ -114,6 +123,8 @@ color: #404bbf;
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .hero-container{
     padding-top: 188px;
@@ -148,6 +159,13 @@ color: #404bbf;
     background: #404bbf;
 }
 /* ======== BENEFITS STYLES ======== */
+.benefits-list{
+    display: flex;
+    column-gap: 24px;
+}
+.benefits-item{
+    width: calc((100% - 72px) / 4);
+}
 .section-of-benefits{
         font-weight: 700;
             font-size: 36px;
@@ -156,6 +174,7 @@ color: #404bbf;
             text-align: center;
             text-transform: capitalize;
             color: #2e2f42;
+            margin-bottom: 50px;
 }
 .benefits{
     font-weight: 500;
@@ -183,9 +202,18 @@ color: #404bbf;
         text-align: center;
         text-transform: capitalize;
         color: #2e2f42;
+        margin-bottom: 72px;
+}
+.workers-list{
+    display: flex;
+    column-gap: 24px;
+    margin-left: 156px;
+    margin-right: 156px;
 }
 .portfolio-section-items{
-    background-color: #FFFFFF
+    background-color: #ffffff;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
 }
 .names{
 font-weight: 500;
@@ -216,6 +244,21 @@ color: #2e2f42;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 24px;
+}
+.work-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    margin-left: 156px;
+    margin-right: 156px;
+}
+.work-item{
+    width: calc((100% - 48px) / 3);
+    border-bottom: 1px solid #e7e9fc;
+        border-left: 1px solid #e7e9fc;
+        border-right: 1px solid #e7e9fc;
+        margin-top: 48px;
 }
 .app-tasks{
     font-weight: 500;
@@ -227,6 +270,8 @@ color: #2e2f42;
 /* ======== FOOTER STYLES ======== */
 .page-footer{
     background: #2e2f42;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .logo-in-footer{
         color: #f4f4fd;
@@ -251,6 +296,7 @@ color: #2e2f42;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        max-width: 264px;
 }
 .text-color-white{
     color: #f4f4fd
