@@ -256,10 +256,10 @@ margin-bottom: 8px;
         color: #2e2f42;
         margin-bottom: 72px;
 }
-.container-of-app{
+.conatainer-of-app{
+    border-top: none;
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
-    border-top: none;
 }
 .work-list{
     display: flex;
