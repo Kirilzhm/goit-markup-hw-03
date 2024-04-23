@@ -37,6 +37,9 @@ button {
     padding-bottom: 60px;
 }
 /* ======== HEADER STYLES ======== */
+.page-header{
+    border-bottom: 1px solid #e7e9fc
+}
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -45,6 +48,7 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px
 }
 
 .text-color-black {
@@ -70,8 +74,7 @@ button {
     letter-spacing: 0.02em;
     color: #2e2f42;
     display: block;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding: 24px 0;
 }
 
 .contacts {
@@ -118,6 +121,7 @@ button {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    padding: 188px 0;
 }
 .hero-container{
     padding-top: 188px;
@@ -148,6 +152,7 @@ button {
     border: none;
     padding-top: 16px;
     padding-bottom: 16px;
+    display: block;
 }
 
 .button-to-buy:hover,
@@ -156,6 +161,9 @@ button {
 }
 
 /* ======== BENEFITS STYLES ======== */
+.section-of0benefits{
+    padding: 120px 0;
+}
 .visually-hidden {
     font-weight: 700;
     font-size: 36px;
@@ -173,6 +181,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .benefits-list{
     display: flex;
@@ -192,6 +201,8 @@ button {
 /* ======== PORTFOLIO STYLES ======== */
 .portfolio-section {
     background: #f4f4fd;
+    padding: 120px 0;
+    margin-bottom: 72px;
 }
 
 .workers {
@@ -218,7 +229,7 @@ button {
         height: 380px;
 }
 .container-of-portfolio{
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 .names {
     font-weight: 500;
@@ -227,6 +238,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .works-of-workers {
@@ -243,6 +255,8 @@ button {
     color: #ffffff;
     line-height: 1.11;
     text-transform: capitalize;
+    padding-top: 120px;
+        padding-bottom: 120px;
 }
 
 .portfolios-of-work {
@@ -253,7 +267,7 @@ button {
     text-align: center;
     color: #2e2f42;
     padding-top: 120px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .work-list{
     display: flex;
@@ -262,7 +276,7 @@ button {
     row-gap: 48px;
 }
 .work-item{
-    width: calc((100%-48px) / 3);
+    width: calc((100% - 48px) / 3)
 }
 .conatainer-of-app{
     border-bottom: 1px solid #e7e9fc;
@@ -277,6 +291,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 /* ======== FOOTER STYLES ======== */
@@ -298,7 +313,8 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    padding-bottom: 16px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .names-of-apps {
@@ -315,7 +331,6 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    padding-top: 16px;
 }
 
 .text-color-white {
